@@ -1,3 +1,5 @@
+"use server";
+
 import {Account, Client, Databases, Storage, Avatars} from "node-appwrite";
 import appwriteConfig from "@/lib/appwrite/config";
 import {cookies} from "next/headers";
